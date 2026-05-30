@@ -1,0 +1,7 @@
+[mod]
+name = "No Armor Durability"
+id = "no-armor-durability"
+version = "0.1.0"
+
+[autoload]
+NoArmorDurability = "res://mods/NoArmorDurability/Main.gd"
