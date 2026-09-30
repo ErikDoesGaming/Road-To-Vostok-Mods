@@ -7,7 +7,7 @@ func WeaponDamage(damage: int, penetration: int):
 		print("Hit: HEAD")
 		if interface.HelmetCheck(penetration):
 			gameData.impact = true
-			PlayArmorAudio()
+			PlayImpactArmor()
 			return
 		interface.ClothingHeadCheck()
 
@@ -15,7 +15,7 @@ func WeaponDamage(damage: int, penetration: int):
 		print("Hit: TORSO")
 		if interface.PlateCheck(penetration):
 			gameData.impact = true
-			PlayArmorAudio()
+			PlayImpactArmor()
 			return
 		interface.ClothingTorsoCheck()
 
@@ -37,7 +37,7 @@ func WeaponDamage(damage: int, penetration: int):
 		elif medicalRoll > 5 && medicalRoll <= 10 && !gameData.fracture:
 			Fracture(true)
 		else:
-			PlayImpactAudio()
+			PlayImpact()
 
 	if !gameData.isDead:
 		gameData.damage = true

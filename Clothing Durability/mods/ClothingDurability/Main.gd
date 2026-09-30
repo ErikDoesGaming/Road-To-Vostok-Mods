@@ -23,6 +23,7 @@ var clothingItems = [
 	preload("res://Items/Clothing/Gloves_Leather/Gloves_Leather.tres"),
 	preload("res://Items/Clothing/Gloves_Work/Gloves_Work.tres"),
 	preload("res://Items/Clothing/Hoodie_Border_Zone/Hoodie_Border_Zone.tres"),
+	preload("res://Items/Clothing/Hat_Foil/Hat_Foil.tres"),
 ]
 
 func _ready():

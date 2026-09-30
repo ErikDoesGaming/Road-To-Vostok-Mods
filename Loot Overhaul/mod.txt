@@ -1,7 +1,7 @@
 [mod]
 name = "Loot Overhaul"
 id = "loot-overhaul"
-version = "0.1.0"
+version = "0.1.2"
 
 [autoload]
 LootOverhaul = "res://mods/LootOverhaul/Main.gd"

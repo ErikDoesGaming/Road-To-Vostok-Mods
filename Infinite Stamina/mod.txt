@@ -1,7 +1,7 @@
 [mod]
 name = "Infinite Stamina"
 id = "infinite-stamina"
-version = "0.1.0"
+version = "0.1.1"
 
 [autoload]
 InfiniteStamina = "res://mods/InfiniteStamina/Main.gd"
