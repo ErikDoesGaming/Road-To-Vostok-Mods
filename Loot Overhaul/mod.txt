@@ -1,7 +1,10 @@
 [mod]
 name = "Loot Overhaul"
 id = "loot-overhaul"
-version = "0.1.2"
+version = "0.1.3"
 
 [autoload]
 LootOverhaul = "res://mods/LootOverhaul/Main.gd"
+
+[updates]
+source="vostokmods:01a1319b-5467-7b60-bed1-63540c51a58c"
